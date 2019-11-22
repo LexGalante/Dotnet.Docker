@@ -1,0 +1,5 @@
+# Criando o container
+docker build -t aspnetapp .
+# Executando o container
+docker run -d -p 8080:80 --name dotnetwebapi aspnetapp
+
